@@ -1,0 +1,25 @@
+/* estilos.css */
+
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-group-item a {
+    margin-right: 10px; /* Ajusta este valor para más espacio */
+  }
+
+  .text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+ 
