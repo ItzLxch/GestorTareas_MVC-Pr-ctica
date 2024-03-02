@@ -6,7 +6,7 @@ Tener instalado XAMPP con PHP y MySQL.
 Acceso a un navegador web.
 CONFIGURACIÓN DE XAMPP
 Inicie XAMPP y asegúrese de que los módulos Apache y MySQL estén en ejecución.
-Abra el Administrador de MySQL (phpMyAdmin) y cree una base de datos que coincida con la configuración de su proyecto.
+Abra el Administrador de MySQL (phpMyAdmin) y cargue la base de datos.
 Importe cualquier archivo .sql proporcionado para configurar la base de datos con las tablas y datos iniciales necesarios.
 INSTALACIÓN DE LA APLICACIÓN
 Clone o descargue el repositorio de código fuente en su máquina local.
@@ -14,9 +14,9 @@ Extraiga los archivos y colóquelos en la carpeta htdocs dentro de su directorio
 Navegue al directorio donde extrajo los archivos y busque el archivo conexion.php dentro de la carpeta Config.
 Abra conexion.php y asegúrese de que los detalles de la base de datos coincidan con su configuración local de MySQL.
 EJECUCIÓN DE LA APLICACIÓN
-Abra su navegador web y vaya a localhost/nombre_de_su_proyecto.
-Regístrese utilizando la interfaz de usuario proporcionada accediendo a localhost/nombre_de_su_proyecto/indexRegistro.php.
-Una vez registrado, inicie sesión a través de la página localhost/nombre_de_su_proyecto/indexLogin.php.
+Abra su navegador web y vaya a localhost/Gestor_Tareas.
+Regístrese utilizando la interfaz de usuario proporcionada accediendo a localhost/Gestor_Tareas/indexRegistro.php.
+Una vez registrado, inicie sesión a través de la página localhost/Gestor_Tareas/indexLogin.php.
 Dependiendo de sus credenciales, será dirigido a la interfaz de administrador o cliente.
 Como administrador, podrá realizar operaciones CRUD en tareas y acceder a los informes a través de los botones proporcionados.
 Como cliente, podrá ver las tareas disponibles y seleccionarlas para actualizar su estado.
